@@ -133,6 +133,30 @@ main {
     color: #3a3a3a;
 }
 
+#reasons {
+    width: 90%;
+    margin:20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    font-size: 280%;
+    text-align: center;
+}
+
+#benefits-physical>div, #benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits  p {
+    padding: 0 20px
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 /*media query: tablets and up */
 @media screen and (min-width: 768px) {
     /*header*/
@@ -165,6 +189,12 @@ main {
     /* main content */
     main {
     margin-top: 79px;
+    }
+
+    /*hero*/
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
