@@ -122,6 +122,16 @@ main {
     color:#ffffff;
 }
 
+/*gallery styles*/
+
+#photos img {
+    width: 100%;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /*footer*/
 #social-networks {
     text-align: center;
