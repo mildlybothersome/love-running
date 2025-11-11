@@ -221,9 +221,9 @@ main {
 }
 
 #circle-cover-bg {
-    background: url(../images/reasons-image.webp) no-repeat top center/cover;
-    width: 90vw;
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
     height: 90vw;
+    width: 90vw;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
