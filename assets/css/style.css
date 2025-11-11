@@ -126,11 +126,17 @@ main {
 
 #photos img {
     width: 100%;
+    line-height: 1em;
 }
 
 #photos {
     line-height: 0;
 }
+
+#signup {
+    background: url("assets\images\signup-image.webp");
+}
+
 
 /*footer*/
 #social-networks {
@@ -209,6 +215,16 @@ hr {
     color: #fafafa;
 }
 
+/*media query: gallery styles*/
+/*media query: large or landscape */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+}
+
 /*media query: tablets and up */
 @media screen and (min-width: 768px) {
     /*header*/
@@ -269,10 +285,24 @@ hr {
     align-self: flex-end;
 }
 
+/* Gallery */
+
+#photos {
+        column-count: 3;
+    }
+
+
 /*media query: laptops and desktops */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+
+/* Gallery */
+
+    #photos {
+        column-count: 4;
+
     }
 
 }
